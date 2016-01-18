@@ -21,7 +21,7 @@ function processUserInput(chatApp, socket) {
         $('#messages').scrollTop($('#messages').prop('scrollHeight'));
     }
 
-    $('$send-message').val('');
+    $('#send-message').val('');
 }
 
 var socket = io.connect();
